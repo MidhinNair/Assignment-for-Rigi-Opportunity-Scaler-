@@ -1,0 +1,322 @@
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for mobile screens */
+    .section {
+        height: auto; 
+    }
+    .section .container {
+        padding: 20px; /* Add padding to the container for spacing */
+    }
+}
+
+/* nav bar style */
+.navbar{
+    background-color:  rgb(235, 239, 247);
+}
+
+.navbar .hide-on-med-and-down li a {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+.navbar .brand-logo{
+    color: rgb(23, 92, 221) ; 
+    font-weight: 600;
+}
+.sidenav-trigger i{
+    color: rgb(23, 92, 221) ;
+}
+
+/* 1st section col s6 */
+.section .container {
+    max-width: 100%;
+}
+#main1 {
+    height: 600px;
+    width: auto;
+    background-color: rgb(23, 92, 221);
+}
+
+.section h1,
+.section p{
+    color: white;
+}
+
+/* for button */
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+.section button{
+      margin:left; 
+      background-color:  rgb(255, 255, 255); 
+      color:  rgb(23, 92, 221);
+      padding: 10px 40px;
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+      font-weight: 500;
+}
+.section button:hover {
+    background-color: rgba(155, 216, 252, 0.418);
+  }
+
+  
+  /* col s5 */
+
+  .image-container {
+    position: relative;
+    align-items: center;
+    height: 100%;
+  }
+  .section img {
+  
+    bottom: 10px;
+    max-width: 150%;
+    height: auto;
+    border: none; 
+  }
+  /* section2 */
+  #main2 {
+    height: 100hv;
+    width: auto;
+    background-color: rgb(235, 239, 247);
+
+      justify-content: center;
+      align-items: center;
+    
+}
+.s2col1{
+    text-align: center;
+}
+.s2col1 h4 {
+    color: rgb(22, 22, 22); 
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 80px; 
+  }
+  .s2col1 h5 {
+    font-weight: 400;
+    margin-top: 100px; 
+    margin-bottom: -25px;
+  }
+  .s2col1 h2 {
+    font-weight: 600;
+    
+  }
+  .s2col1 p {
+    font-weight: 600;
+    color: black;
+    font-size: medium;
+    margin: 10px 0;
+  }
+#aboutme{
+    border-radius: 50%;
+    height: 440px;
+    width: 440px;
+    border: 1px solid rgb(66, 65, 143);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ /* Style for individual social media icons */
+
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;;
+    
+  }
+
+  
+.socialicons a img {
+  
+    margin: 6px;
+    width: 80px;
+    height:80px;
+
+}
+
+
+/* Style for the h5 within .s2col2 */
+.s2col2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s2col2 h5 {
+    color: rgb(0, 0, 0); 
+    font-size: 20px; 
+    margin-top: 100px; 
+    font-size: 500;
+}
+
+  /* Style for the h1 within .s2col2 */
+  .s2col2 h1 {
+    font-size: 36px; 
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .s2col2 .button-container{
+    
+    color: black;
+  }
+  .s2col2 button:hover {
+    background-color: rgb(23, 92, 221);
+  }
+  .s2col31 h1,.s2col31 h6{
+    color:black;
+    font-weight: 600;
+  }
+.s2col31 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+    
+  .s2col31 p{
+    color: black;
+    font-size: medium;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .s2col31 i{
+    border-radius: 50%;
+  }
+ /* section3 */
+  .s2col31 .button-container{
+    color:white;
+    background-color:  rgb(23, 92, 221);
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+  }
+#club{
+    border-radius: 10%;
+    margin-top: 50px;
+}
+#main3 {
+    height: 100hv;
+    width: auto;
+    background-color: rgb(235, 239, 247);
+
+      justify-content: center;
+      align-items: center;
+}
+
+
+#buycource .card {
+    height: 300px; 
+    border-radius: 20px;
+}
+
+#buycource .card-content{
+   margin-top: -30px;
+    
+}
+
+#buycource .card-content h5{
+    font-weight: 500;
+    font-size: 15px;
+}
+#buycource .card-content h6{
+    font-weight: 500;
+    font-size: 10px;
+}
+
+#buycource .button-container {
+    background-color: rgb(2, 81, 199); /* Change to your preferred background color */
+    color: rgb(255, 255, 255);
+   font-size: 12px;
+    padding: 10px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#buycource .button-container:hover {
+    background-color: rgba(23, 92, 221, 0.8); /* Adjust hover background color as needed */
+}
+#buycource .card-action .button-container {
+    background-color: rgb(1, 5, 11);
+    color: rgb(0, 42, 255);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}#buycource .card-image img {
+    border-radius: 10%;
+}
+
+/* -------------------------------------------- */
+
+
+#buycource1 .card {
+    height: 200px; 
+    border-radius: 20px;
+}
+
+#buycource1 .button-container {
+    background-color: rgb(2, 81, 199); /* Change to your preferred background color */
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    padding: 12px 50px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+ 
+}
+/* Flex container to center-align button */
+#buycource1 .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+#buycource1 .button-container:hover {
+    background-color: rgba(23, 92, 221, 0.8); /* Adjust hover background color as needed */
+}
+#buycource1 .card-image img {
+    border-radius: 15%;
+    max-width: 100%;
+    height: auto;
+
+}
+#main4 {
+  height: 800px;
+  width: auto;
+  background-color: rgb(23, 92, 221);
+}
+.finalsoc img{
+  width: 50px;
+  height:50px;
+}
+.footer {
+  background-color: rgb(58, 92, 248);
+  text-align: center;
+  text-align: center;
+   
+    
+}
+ #foot{
+  margin-bottom: 20px;
+
+}
+
+
+
+
+.container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+
